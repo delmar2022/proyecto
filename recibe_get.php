@@ -7,10 +7,10 @@
     <title>Datos GET</title>
 </head>
 <body>
-Nombre: <?php echo $_get['nombre'] ?> <br>
-    Usuario: <?php echo $_get['usuario'] ?> <br>
-    Password: <?php echo $_get['password'] ?> <br>
-    Password2: <?php echo $_get['password2'] ?> <br>
-    Email: <?php echo $_get['email'] ?> <br>
+Nombre: <?php echo $_POST['nombre'] ?> <br>
+    Usuario: <?php echo $_POST['usuario'] ?> <br>
+    Password: <?php echo $_POST['password'] ?> <br>
+    Password2: <?php echo $_POST['password2'] ?> <br>
+    Email: <?php echo $_POST['email'] ?> <br>
 </body>
 </html>
