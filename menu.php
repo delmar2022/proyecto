@@ -7,10 +7,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,7 +17,8 @@
                   <li><a class="dropdown-item" href="aritmet.php">Operadores Aritmeticos</a></li>
                   <li><a class="dropdown-item" href="op_comparacion.php">Operadores de Comparacion</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="form_productos.php">Formulario con POST</a></li>
+                  <li><a class="dropdown-item" href="form_productos2.php">Formulario con Ajax</a></li>
                 </ul>
               </li>
               <li class="nav-item">

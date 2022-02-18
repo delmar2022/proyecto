@@ -11,45 +11,28 @@
 </head>
 <body>
     <?php 
-    $valor1 = $_POST['valor1'];
-    $valor2 = $_POST['valor2'];
-
-if ($valor1 == $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Igual";
-}elseif ($valor1 <> $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Diferente";
-}elseif ($valor1 > $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Mayor que";
-}elseif ($valor1 < $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Menor que";
-}elseif ($valor1 >= $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Mayor o Igual";
-}elseif ($valor1 <= $valor2) {
-    $op = "VERDADERO";
-    $tipo = "Meno o Igual";
-}
-
-    
-    
+    $nombre = $_POST['nombre'];
+    $costo = $_POST['costo'];
+    $precio = $_POST['precio'];
+    $stock = $_POST['stock'];
+    $stock_min = $_POST['stock_min'];
     ?>
     <div class="container"><br>
-   El valor1 enviado es: <?php  echo $valor1 ?><br>
-    El valor2 enviado es: <?php  echo $valor2 ?><br>
-
     <table class="table table-striped table-hover table-bordered">
         <tbody>
             <tr>
-                <th></th>
-                <th></th>
+                <th>NOMBRE</th>
+                <th>COSTO</th>
+                <th>PRECIO</th>
+                <th>STOCK</th>
+                <th>STOCK MIN.</th>
             </tr>
             <tr>
-                <td>El valor1 <?php  echo $valor1 ?> es:  <?php  echo $tipo ?> al valor2: <?php  echo $valor2 ?></td>
-                <td><?php  echo $op ?></td>
+                <td><?php  echo $nombre ?></td>
+                <td><?php  echo $costo ?></td>
+                <td><?php  echo $precio ?></td>
+                <td><?php  echo $stock ?></td>
+                <td><?php  echo $stock_min ?></td>
             </tr>
             
         </tbody>
